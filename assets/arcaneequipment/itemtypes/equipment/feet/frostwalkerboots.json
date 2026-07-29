@@ -1,0 +1,34 @@
+{
+    "code": "frostwalkerboots",
+    "class": "ItemWearable",
+    "creativeInventory": {
+        "general": ["*"]
+    },
+    "storageFlags": 128,
+    "shape": { "base": "arcaneequipment:foot" },
+    "textures": {
+        "seraph": { "base": "game:block/transparent" },
+        "shoes": { "base": "arcaneequipment:foot/frostwalkerboots" }
+    },
+    "guiTransform": {
+        "rotate": false,
+        "translation": { "x": 2, "y": 0, "z": 18 },
+        "rotation": { "x": 152, "y": -118, "z": -3 },
+        "origin": { "x": 0.5, "y": 0.29, "z": 0.55 },
+        "scale": 2.2
+    },
+    "renderAlphaTest": 0.05,
+    "fpHandTransform": {
+        "translation": { "x": 0.7, "y": 0.1, "z": -0.4 },
+        "rotation": { "x": -33, "y": 10, "z": -24 },
+        "scale": 2.5
+    },
+    "attributes": {
+        "clothescategory": "foot",
+        "wearableAttachment": true
+    },
+    "behaviors": [
+        { "name": "Wearable" },
+        { "name": "FrostWalkerBehavior" }
+    ]
+}

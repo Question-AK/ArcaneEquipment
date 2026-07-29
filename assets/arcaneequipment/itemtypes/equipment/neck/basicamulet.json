@@ -1,0 +1,26 @@
+{
+    "code": "basicamulet",
+    "creativeInventory": {
+        "general": ["*"]
+    },
+    "storageFlags": 128,
+    "shape": { "base": "arcaneequipment:neck" },
+    "textures": {
+        "seraph": { "base": "game:block/transparent" },
+        "amulet": { "base": "arcaneequipment:neck/basicamulet" }
+    },
+    "guiTransform": {
+        "rotate": false,
+        "translation": { "x": 2, "y": 0, "z": 18 },
+        "rotation": { "x": 152, "y": -118, "z": -3 },
+        "origin": { "x": 0.5, "y": 0.29, "z": 0.55 },
+        "scale": 2.2
+    },
+    "attributes": {
+        "clothescategory": "neck",
+        "wearableAttachment": true
+    },
+    "behaviors": [
+        { "name": "CollectibleBehaviorWearable" }
+    ]
+}

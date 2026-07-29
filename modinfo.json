@@ -1,0 +1,15 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "code",
+  "modid": "arcaneequipment",
+  "name": "ArcaneEquipment",
+  "authors": [
+    "Question"
+  ],
+  "description": "Magical DnD and Pathfinder inspired wearable items with unique passive effects",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": ">=1.21.0",
+    "survival": ">=1.21.0"
+  }
+}

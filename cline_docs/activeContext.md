@@ -1,23 +1,9 @@
-## Active Context
+# Active Context
 
-### What I'm working on now
-- Planning implementation for a new Vintage Story mod item: `frostboots`.
-- Requested file work:
-  - Create `assets/arcaneequipment/itemtypes/frostboots.json`
-  - Update `assets/arcaneequipment/lang/en.json`
-  - Edit `ArcaneEquipmentModSystem.cs` to add freeze/thaw logic
-
-### Verified current project state
-- `ArcaneEquipmentModSystem.cs` currently only logs hello messages on Start/StartServerSide/StartClientSide.
-- `assets/arcaneequipment/lang/en.json` currently contains only:
-  - `"hello": "hello world!"`
-- `assets/arcaneequipment/itemtypes/` does not yet exist.
-- No existing freeze/thaw/temperature logic found in C# sources.
-
-### Recent changes
-- Created Memory Bank file: `cline_docs/productContext.md`.
-- Initialized additional Memory Bank files for continuity.
-
-### Next steps
-- Confirm exact desired freeze/thaw behavior (timing, trigger, effect scope).
-- Implement files and logic in ACT mode once plan is approved.
+- Current task: Edit `ArcaneEquipment.csproj` by inserting an `ItemGroup` after the first `ItemGroup`, then rebuild and report full build output.
+- Status: Memory bank initialized; project file edit and build pending.
+- Next steps:
+  1. Inspect `ArcaneEquipment.csproj` structure.
+  2. Insert requested `ItemGroup` in the specified location.
+  3. Run `dotnet build` on the project.
+  4. Return full build result.

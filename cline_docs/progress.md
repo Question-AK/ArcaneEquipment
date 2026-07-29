@@ -1,14 +1,18 @@
-## Progress
+# Progress
 
-### What works
-- Base mod system loads and logs on common/server/client starts.
-- Localization file exists and is loaded from expected path.
+## Completed
 
-### What is left to build
-- Create `frostboots` item JSON file under itemtypes.
-- Add English localization entries for item name and description.
-- Implement freeze/thaw server-side logic in `ArcaneEquipmentModSystem.cs`.
+- Initialized required memory bank files in `cline_docs/`.
 
-### Current status
-- Planning and repository inspection complete.
-- Awaiting behavior confirmation details for freeze/thaw effect, then ACT mode implementation.
+## In Progress
+
+- Applying requested `ArcaneEquipment.csproj` ItemGroup insertion.
+
+## Remaining
+
+1. Edit `ArcaneEquipment.csproj` to add:
+   - `<Compile Remove="ArcaneEquipmentTop\**" />`
+   - `<Compile Remove="CakeBuild\**" />`
+   in a new `ItemGroup` directly after the first existing `ItemGroup`.
+2. Run `dotnet build` for the project.
+3. Return full build output.
