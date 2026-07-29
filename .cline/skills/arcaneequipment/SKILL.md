@@ -68,5 +68,5 @@ If the shape declares `16x16`, the texture file must be 16x16.
 
 Deploy always uses full assets xcopy — individual file xcopy has proven unreliable:
 ```shell
-xcopy /E /Y /I "C:\Users\Kjol\Documents\02 Dev Projects\Vintage Story Projects\VSProjects\Mods\ArcaneEquipment\assets" "%APPDATA%\VintagestoryData\Mods\ArcaneEquipment\assets"
+xcopy /E /Y /I "assets" "%APPDATA%\VintagestoryData\Mods\ArcaneEquipment\assets"
 ```
