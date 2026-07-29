@@ -1,0 +1,14 @@
+# ArcaneEquipment — Cline Rules
+
+## Skills
+Always invoke vs-rag-query before writing any JSON field or C# API call
+not already verified in this session.
+
+## Mod type
+[ ] Content only (JSON)  [x] Code mod (C# + JSON)
+
+## Mod-specific conventions
+<!-- Fill in after first session: key patterns, class names, asset domain -->
+
+## Known wiki gaps for this mod
+<!-- Add any terms confirmed absent from the 125-file corpus -->

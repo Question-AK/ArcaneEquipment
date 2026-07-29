@@ -672,8 +672,4 @@ fabric.properties
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# Cline AI assistant config (excluded from public repo)
-.clinerules
-.cline/
-
 # End of https://www.toptal.com/developers/gitignore/api/csharp,visualstudio,visualstudiocode,rider
