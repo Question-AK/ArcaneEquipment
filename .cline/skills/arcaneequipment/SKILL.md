@@ -67,6 +67,7 @@ Shape texture size must match `textureWidth`/`textureHeight` declared in the sha
 If the shape declares `16x16`, the texture file must be 16x16.
 
 Deploy always uses full assets xcopy — individual file xcopy has proven unreliable:
+> **Must be run from the repo root** because the source path `"assets"` is relative.
 ```shell
 xcopy /E /Y /I "assets" "%APPDATA%\VintagestoryData\Mods\ArcaneEquipment\assets"
 ```
