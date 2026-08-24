@@ -69,7 +69,7 @@ public class FrostWalkerBehavior : ArcanePassiveBehavior
             return;
         }
 
-        BlockPos feetPos = player.Entity.ServerPos.AsBlockPos;
+        BlockPos feetPos = player.Entity.Pos.AsBlockPos;
         int radiusSq = radius * radius;
 
         for (int dx = -radius; dx <= radius; dx++)
